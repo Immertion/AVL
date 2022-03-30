@@ -97,19 +97,6 @@ void print_tree(Node* node)
     return;
 }
 
-struct Node* nextiter(Node* (&tree), int k)
-{
-    if (tree->value > k)
-    {
-        return nextiter(tree->left_node, k);
-    }
-    else
-    {
-        return tree;
-    }
-}
-
-
 void printBT(const string& prefix, Node* (&tree), bool isLeft)
 {
     if (tree)
