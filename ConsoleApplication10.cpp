@@ -40,6 +40,13 @@ struct Node* search_node(Node* (&tree), string k)
 
 }
 
+
+            
+
+        
+
+    
+
 struct Node* search_node1(Node* (&tree), int k)
 {
     if (tree == NULL)
