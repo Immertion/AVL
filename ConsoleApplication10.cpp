@@ -348,33 +348,6 @@ int main()
         else {
             break;
         }
+        cout << "finish";
     }
-}
-
-
-//add 8
-//add 10
-//add 9
-//add 15
-//add 13
-
-
-
-
-//if (element->parent->right_node != nullptr && element->value == element->parent->right_node->value)
-//{
-//    element->parent->right_node = element_min;
-//    element->left_node->parent = element_min;
-//    element->right_node->parent = element_min;
-//    element_min->left_node = element->left_node;
-//    element_min->right_node = element->right_node;
-//}
-//else if (element->parent->left_node != nullptr && element->parent->left_node->value == element->value)
-//{
-//    element->parent->left_node = element_min;
-//    element->left_node->parent = element_min;
-//    element->right_node->parent = element_min;
-//    element_min->left_node = element->left_node;
-//    element_min->right_node = element->right_node;
-//}
-//delete(element);
+}     
